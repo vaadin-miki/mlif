@@ -105,7 +105,6 @@ public class MlifIntegrationTest {
         documentUris.add(testUri);
         set.addAs(testUri, testable);
 
-        System.out.println("writing data - "+set.size());
         manager.write(set, transaction);
         transaction.commit();
 
